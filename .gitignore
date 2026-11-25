@@ -1,0 +1,43 @@
+# Carpetas generadas por colcon (NUNCA se suben)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# C++ / Compilación
+*.o
+*.so
+*.a
+*.out
+
+# Editores y Sistema Operativo
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archivos temporales de ROS / Gazebo
+*.bag
+*.db3
+
+# Dependencias externas (clonadas aparte)
+src/Universal_Robots_ROS2_Description/
+src/Universal_Robots_ROS2_GZ_Simulation/
+
+# Archivos de agentes de IA (locales)
+.claude/
+.opencode/
+AGENTS.md
+AI_AGENT_PROJECT_CONTEXT.md
+CLAUDE.md
+MEMORY.md
+docs/
+specs/
