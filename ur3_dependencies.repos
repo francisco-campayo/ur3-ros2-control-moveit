@@ -1,0 +1,12 @@
+# Paquetes oficiales de Universal Robots (terceros) que este proyecto usa
+# desde código fuente. No forman parte de este repositorio: se descargan con
+#   vcs import src < ur3_dependencies.repos
+repositories:
+  Universal_Robots_ROS2_Description:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+    version: jazzy
+  Universal_Robots_ROS2_GZ_Simulation:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
+    version: jazzy
